@@ -1,0 +1,43 @@
+body{
+    background-color:#ae9cff;
+}
+#main-box{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    color:#404259;
+    position: absolute;
+    left: 36%;
+    top: 30%;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    font-size: 50px;
+}
+#buttonval{
+    position: absolute;
+    top: 57%;
+    left: 37.7%;
+}
+.zero-col{
+    color:#ae9cff;
+}
+button{
+width: 70px;
+height: 30px;
+font-family: 'Poppins', sans-serif;
+font-weight:400;
+font-size: 12px;
+text-align: center;
+color:#575a7b;
+background-color: white;
+margin-left: 10px;
+border-color: transparent;
+border-radius: 5px;
+}
+button:hover{
+    color: #ae9cff;
+}

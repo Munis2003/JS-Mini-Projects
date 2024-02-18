@@ -1,0 +1,92 @@
+body{
+    background-color: #ae9cff;
+    background-position: center;
+    background-size: cover;
+}
+#body{
+    background-color: #ae9cff;
+}
+#main-container{
+    width: 400px;
+    border: 2px solid white;
+    padding-bottom: 25px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    background-color: white;
+}
+#searchVal{
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    gap: 1.25em;
+    padding: 25px 0 0 20px;
+}
+#underline{
+    color: #575a7b;
+    background: transparent;
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    border-bottom: 3px solid #ae9cff;
+    outline: none;
+}
+#btn{
+    font-size: 1em;
+    background-color:#ae9cff;
+    border: none;
+    padding: 0 1em 0;
+    border-radius: 5px;
+    color: white;
+    width:100px ;
+    height:40px ;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    padding-left: 29px;
+    font-size: 25px;
+    
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    font-size: 15px;    
+    padding-left: 30px;
+    color:#575a7b;
+}
+#result-val{
+    display: none;
+}
+#flag{
+    width: 100px;
+    padding: 30px 0 0 32px;
+    margin-bottom: -10px;
+}
+span{
+    color: #575a7b;
+    font-size: 12px;
+    font-weight: 400;
+}
+#name{
+    font-size: 35px;
+    color: #575a7b;
+}
+.back-vid{
+    
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    top: -5;
+    z-index:-1;   
+    position: fixed;
+}
+
+#hello{
+    color: white;
+}
+::placeholder{
+    color: #575a7b;
+}
